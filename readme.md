@@ -71,14 +71,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Rood (het is idd best leuk maar ik ben er niet veel mee bezig):** -kies uit zwart, rood óf blauw-
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** 
+https://thegreatbritishbakeoff.co.uk
+https://thegreatbritishbakeoff.co.uk/recipes/all/paul-hollywood-jam-and-custard-doughnuts/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_3911.jpg" width="375px" alt="Great British Bake Off home page.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_3912.jpg" width="375px" alt="Great British Bake Off recepten pagina.">
