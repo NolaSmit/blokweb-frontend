@@ -1,0 +1,18 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body {
+    display: block;
+    margin:0 auto;
+    max-width: 64em;
+}
+
+article {
+    
+}
+
+article img {
+    max-width: 100vw;
+}
