@@ -3,3 +3,27 @@
   box-sizing:border-box;  
 }
 
+body {
+    display: block;
+    margin:0 auto;
+    max-width: 64em;
+    background-color: #f4f2ec;
+}
+
+article {
+    
+}
+
+article img {
+    max-width: 100vw;
+    margin-bottom: 0;
+}
+
+article h3 {
+    display: block;
+    margin-top: 0;
+    font-family: Futura PT W01 Medium,sans-serif;
+    font-weight: 400;
+    color: white;
+    background: #197b9f;
+}
