@@ -73,3 +73,69 @@ article img {
     width: 100vw;
     background-image
 }
+
+
+
+/*-----------RECEPTEN PAGINA--------------*/
+
+/*-----------BANNER--------------*/
+
+.recepten-page img{
+    display:block;
+    width: 100vw;
+    height: auto;
+}
+
+div.page-banner {
+    display: block;
+    background-color: #fff;
+    width: auto;
+    padding: 3px;
+    border: 2px solid #c73d67;
+}
+
+div.page-banner h1 {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 80vw;
+    background-color: #c73d67;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+}
+
+
+/*-----------INTRO--------------*/
+div.recipe-introduction {
+    position: relative;
+}
+
+div.recipe-introduction img {
+    position: absolute;
+    left: 30%;
+    max-width: 13%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+div.recipe-introduction h5 {
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+}
+
+div.recipe-introduction p:first-of-type {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 1em;
+}
