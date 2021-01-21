@@ -179,10 +179,16 @@ article img {
   width: 4em;
 }
 
+.recipes-styling div:nth-of-type(2) {
+    position: relative;
+    left: 5.4em;
+    bottom: 3em;
+    max-width: 20em;
+}
 
 .recipes-styling h3 {
     align-content: center;
-    
+    margin: 0;
     padding: 1em 0 2em 0;
     max-width: 23em;
     
@@ -200,19 +206,24 @@ article img {
 /*-----------RECEPTEN PAGINA--------------*/
 
 /*-----------BANNER--------------*/
+#recepten-page article {
+    position: relative;
+}
 
-.recepten-page img{
+#recepten-page img{
     display:block;
     width: 100vw;
     height: auto;
 }
 
 div.page-banner {
-    display: block;
+    position: absolute;
+    left: 9vw;
+    bottom: -2em;
     background-color: #fff;
-    width: auto;
     padding: 3px;
     border: 2px solid #c73d67;
+    width: 83vw;
 }
 
 div.page-banner h1 {
@@ -231,32 +242,91 @@ div.page-banner h1 {
 
 
 /*-----------INTRO--------------*/
+
 div.recipe-introduction {
+    margin-top: 4em;
     position: relative;
+    padding-bottom: 5em;
+    border-bottom: 1px solid #d3d2cb;
 }
 
 div.recipe-introduction img {
     position: absolute;
     left: 30%;
-    max-width: 13%;
+    max-width: 15%;
     border-radius: 50%;
     border: 2px solid #fff;
 }
 
 div.recipe-introduction h5 {
     position: absolute;
-    left: 45%;
-    top: 0%;
+    left: 50%;
+    top: 0.5em;
+    margin: 0;
     font-family: 'Inter', 'Raleway', sans-serif;
     font-weight: 300; 
-    font-size: 1em;
+    font-size: 0.9em;
+    color: #197b9f;
 }
 
-div.recipe-introduction p:first-of-type {
+div.recipe-introduction p {
     position: absolute;
-    left: 45%;
-    top: 20%;
+    left: 50%;
+    top: 2em;
+    margin: 0;
     font-family: 'Inter', 'Raleway', sans-serif;
     font-weight: 300; 
-    font-size: 1em;
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+#recepten-page article {
+    position: relative;
+}
+
+#recepten-page article p:first-of-type {
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 0.9em;
+    color: #4a4a4a;
+    margin: 2em 1em 3em 1em;
+}
+
+#recepten-page article span p:first-of-type{
+    margin: 0;
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 500; 
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+#recepten-page article span p:nth-of-type(2){
+    margin: 0;
+    font-family: 'Inter', 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 0.9em;
+    color: #c73d67;
+}
+
+#recepten-page article span:first-of-type {
+    position: absolute;
+    left: 3em;
+}
+
+#recepten-page article span:nth-of-type(2) {
+    position: absolute;
+    left: 15em;
+}
+
+#recepten-page article span:nth-of-type(3) {
+    position: absolute;
+    left: 3em;
+    top: 10em;
+    max-width: 10em;
+}
+
+#recepten-page article span:nth-of-type(4) {
+    position: absolute;
+    left: 15em;
+    top: 10em;
 }
