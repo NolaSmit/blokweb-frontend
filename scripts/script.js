@@ -4,12 +4,14 @@
 
 "use strict" ;
 
-console.log('Im begging you please work')
+console.log('Im begging you please work');
 
 var menuButton = document.querySelector('#nav-button') ;
 
+var navBar = document.querySelector('#nav-bar');
+
 function toggleMenu() {
-    document.nav.classList.toggle('togglenav');
+    navBar.classList.toggle('togglenav');
 }
 
 menuButton.addEventListener('click', toggleMenu);
